@@ -18,7 +18,6 @@ const loadTemperature = async (city) => {
 const displayTemperature = (data) => {
   setInnerTextById("temperature", data.main.temp);
   setInnerTextById("condition", data.weather[0].main);
-  // console.log(data.weather[0].main);
 };
 
 //set innerText function
