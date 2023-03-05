@@ -1,6 +1,5 @@
 // api key
-const API_KEY = `c08d3862b801fd0bc8c52cd1ed89fb07
-`;
+const API_KEY = `get your api key`;
 
 //fetching data using api
 const loadTemperature = async (city) => {
